@@ -1,0 +1,12 @@
+create database aadhar
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root'
+use aadhar
+create table registered_users (email_address varchar(50), password varchar(50))
+create table registration (first_name varchar(50), last_name varchar(50), email_address varchar(50), gender varchar(50), password varchar(50), confirm_password varchar(50))
+create table aadhar_info (Aadharno varchar(50), Is_registered varchar(50), Dob varchar(50), Email varchar(50))
+
+
+
+
+
+
